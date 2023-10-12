@@ -1,0 +1,33 @@
+#$ TITLE: My Default Rate settings
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: RATES
+#$ STATUS: OFFICIAL
+#$ KEYWORDS: defaults, reset, OSD
+#$ AUTHOR: Jugga
+#$ DESCRIPTION: Resets the Rates to my Rates defaultsprofile 0
+
+# profile 0
+set vbat_pid_gain = ON
+set anti_gravity_gain = 5000
+set iterm_relax_cutoff = 20
+set throttle_boost = 3
+set p_pitch = 108
+set i_pitch = 65
+set d_pitch = 80
+set f_pitch = 0
+set p_roll = 108
+set i_roll = 55
+set d_roll = 75
+set f_roll = 0
+set p_yaw = 90
+set i_yaw = 85
+set angle_level_strength = 110
+set horizon_level_strength = 70
+set horizon_transition = 80
+set level_limit = 30
+set abs_control_gain = 5
+set d_min_roll = 20
+set d_min_pitch = 22
+set d_min_boost_gain = 27
+
+rateprofile 1

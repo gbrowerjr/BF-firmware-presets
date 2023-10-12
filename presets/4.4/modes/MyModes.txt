@@ -1,0 +1,15 @@
+#$ TITLE: My Default 4.4 Mode/aux settings
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: MODES
+#$ STATUS: OFFICIAL
+#$ KEYWORDS: defaults, reset, OSD
+#$ AUTHOR: Jugga
+#$ DESCRIPTION: Resets the Mode/aux values to my Betaflight 4.4 defaults
+
+# aux - My default aux setup
+aux 0 0 0 950 1350 0 0
+aux 1 1 0 1100 1175 0 0
+aux 2 13 3 1200 1300 0 0
+aux 3 30 0 900 2100 0 0
+aux 4 35 3 950 1050 0 0
+aux 5 47 0 950 1050 0 0
