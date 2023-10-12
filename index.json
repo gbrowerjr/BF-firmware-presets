@@ -3700,7 +3700,7 @@
     },
     {
       "fullPath": "presets/4.4/modes/MyModes.txt",
-      "hash": "7956f3d7a09fc19c775a2fdab5bb2b2031aff56f5b62d15d3ee7d156ee8e1f08",
+      "hash": "4c206cf22c80e0c0f4b3a3b7de8d7475b039891c122f67b803eff60be2e31706",
       "title": "My Default 4.4 Mode/aux settings",
       "firmware_version": [
         "4.4"
@@ -3710,7 +3710,7 @@
       "keywords": [
         "defaults",
         "reset",
-        "OSD"
+        "Modes"
       ],
       "author": "Jugga",
       "priority": 0

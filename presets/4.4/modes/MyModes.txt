@@ -2,7 +2,7 @@
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: MODES
 #$ STATUS: OFFICIAL
-#$ KEYWORDS: defaults, reset, OSD
+#$ KEYWORDS: defaults, reset, Modes
 #$ AUTHOR: Jugga
 #$ DESCRIPTION: Resets the Mode/aux values to my Betaflight 4.4 defaults
 
