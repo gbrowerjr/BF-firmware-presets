@@ -266,6 +266,7 @@
       "betaflight",
       "blackbox",
       "BMSThomas",
+      "BNF",
       "brushless",
       "camera",
       "camera_control",
@@ -502,7 +503,7 @@
   "presets": [
     {
       "fullPath": "presets/4.2/BNF/BTFL_cli_backup_BabyTooth_20231013_092933.txt",
-      "hash": "e85bdc20d7c2476f8d0de3cb76f12949a97efb995d4a3ee22c0305f959ac076d",
+      "hash": "c5cbec26f373d84319e2669e5c7cb5b1199ad6512f1d9216995be755cf3ddbe2",
       "title": "My BNF Babytooth 2S",
       "firmware_version": [
         "4.2"
@@ -519,7 +520,7 @@
     },
     {
       "fullPath": "presets/4.2/BNF/BTFL_cli_backup_Baby_Nazgul_20231013_101621.txt",
-      "hash": "0994dd668b1bd165d86a0915cdd897ade52c0ac5228845135a11e86ba3345502",
+      "hash": "2c1795b2aa156cbb03163a488e5ec9139701e8402d0a9bd10b26d5d3d6c4b08f",
       "title": "My BNF Baby Nazgul 1S",
       "firmware_version": [
         "4.2"
@@ -530,6 +531,23 @@
         "defaults",
         "reset",
         "Modes"
+      ],
+      "author": "Jugga",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.2/BNF/BTFL_cli_backup_TadPole_20231013_122234.txt",
+      "hash": "fbd16c46bb2ae3a7b11d875a93e19eb1e9ae8189904467884673dc3cd785fb1b",
+      "title": "My BNF Tadpole 2S",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "BNF",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "BNF"
       ],
       "author": "Jugga",
       "priority": 0

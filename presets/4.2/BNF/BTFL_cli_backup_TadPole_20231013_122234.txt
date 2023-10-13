@@ -1,55 +1,48 @@
 defaults nosave
 
-#$ TITLE: My BNF Babytooth 2S
+#$ TITLE: My BNF Tadpole 2S
 #$ FIRMWARE_VERSION: 4.2
 #$ CATEGORY: BNF
 #$ STATUS: OFFICIAL
-#$ KEYWORDS: defaults, reset, Modes
+#$ KEYWORDS: defaults, reset, BNF
 #$ AUTHOR: Jugga
-#$ DESCRIPTION: Resets the cli values to my Betaflight 4.2 defaults
+#$ DESCRIPTION: Resets the cli values to my Betaflight 4.2 defaults -
+2S w/ CRSF and Unify Pro32 Nano
 
 # version
-# Betaflight / STM32F411 (S411) 4.2.5 Nov 22 2020 / 18:38:45 (afdac08b3) MSP API: 1.43
-
-# config: YES
-
-# start the command batch
-batch start
+# Betaflight / STM32F411 (S411) 4.2.8 Feb 15 2021 / 12:09:04 (101738d8e) MSP API: 1.43
+# config: manufacturer_id: DIAT, board_name: MAMBAF411, version: 45b6e90d, date: 2020-11-27T19:02:33Z
 
 # reset configuration to default settings
 defaults nosave
 
-board_name MATEKF411
-manufacturer_id MTKS
-mcu_id 0050006b4247501120303634
+board_name MAMBAF411
+manufacturer_id DIAT
+mcu_id 005e00333437510535313736
 signature
 
-# name: BabyTooth
+# name: TadPole
 
 # feature
-feature -SOFTSERIAL
+feature -RX_SERIAL
 feature -TELEMETRY
+feature RX_PARALLEL_PWM
 
 # beeper
 beeper -GYRO_CALIBRATED
 beeper -RX_LOST
 beeper -RX_LOST_LANDING
 beeper -DISARMING
-beeper -ARMING
 beeper -ARMING_GPS_FIX
-beeper -BAT_LOW
 beeper -GPS_STATUS
-beeper -RX_SET
 beeper -ACC_CALIBRATION
 beeper -ACC_CALIBRATION_FAIL
 beeper -READY_BEEP
 beeper -DISARM_REPEAT
-beeper -SYSTEM_INIT
+beeper -ARMED
 beeper -ON_USB
 beeper -BLACKBOX_ERASE
 beeper -CAM_CONNECTION_OPEN
-beeper -CAM_CONNECTION_CLOSE
-beeper -RC_SMOOTHING_INIT_FAIL
 
 # beacon
 beacon RX_SET
@@ -58,10 +51,8 @@ beacon RX_SET
 map TAER1234
 
 # serial
+serial 0 0 115200 57600 0 115200
 serial 1 2048 115200 57600 0 115200
-
-# led
-led 0 9,5::CB:4
 
 # aux
 aux 0 0 0 950 1350 0 0
@@ -70,44 +61,43 @@ aux 2 13 3 1200 1300 0 0
 aux 3 30 0 900 2100 0 0
 aux 4 35 3 950 1050 0 0
 aux 5 47 0 950 1050 0 0
+aux 6 47 0 950 1050 0 0
+
+# adjrange
+adjrange 0 0 1 925 1925 12 1 0 0
 
 # vtxtable
-vtxtable bands 6
+vtxtable bands 5
 vtxtable channels 8
-vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
-vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
-vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665    0 5885 5905    0    0
-vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
-vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
-vtxtable band 6 IMD6     I CUSTOM  5732 5765 5828 5840 5866 5740    0    0
+vtxtable band 1 BOSCAM_A A CUSTOM  5865 5845 5825 5805 5785 5765 5745 5725
+vtxtable band 2 BOSCAM_B B CUSTOM  5733 5752 5771 5790 5809 5828 5847 5866
+vtxtable band 3 BOSCAM_E E CUSTOM  5705 5685 5665 5645 5885 5905 5925 5945
+vtxtable band 4 FATSHARK F CUSTOM  5740 5760 5780 5800 5820 5840 5860 5880
+vtxtable band 5 RACEBAND R CUSTOM  5658 5695 5732 5769 5806 5843 5880 5917
 vtxtable powerlevels 4
-vtxtable powervalues 0 1 2 3
-vtxtable powerlabels 25 100 200 350
+vtxtable powervalues 14 20 26 36
+vtxtable powerlabels 25 100 400 MAX
 
 # master
 set gyro_lowpass_hz = 0
-set gyro_lowpass2_hz = 0
+set gyro_lowpass2_hz = 325
 set dyn_notch_width_percent = 0
 set dyn_notch_q = 200
 set dyn_notch_min_hz = 90
 set dyn_lpf_gyro_min_hz = 0
 set dyn_lpf_gyro_max_hz = 650
-set acc_calibration = -48,90,31,1
-set min_check = 1100
-set fpv_mix_degrees = 10
+set acc_trim_pitch = 19
+set acc_trim_roll = -10
+set acc_calibration = 51,6,27,1
+set rssi_channel = 12
+set fpv_mix_degrees = 20
 set serialrx_provider = CRSF
-set blackbox_device = NONE
-set dshot_idle_value = 600
 set dshot_bidir = ON
 set motor_poles = 12
 set bat_capacity = 450
 set vbat_max_cell_voltage = 440
-set vbat_min_cell_voltage = 300
-set vbat_warning_cell_voltage = 330
-set ibata_scale = 12000
-set yaw_motors_reversed = ON
+set ibata_scale = 8000
 set small_angle = 180
-set deadband = 3
 set yaw_deadband = 5
 set pid_process_denom = 1
 set osd_units = IMPERIAL
@@ -120,7 +110,7 @@ set osd_tim_1_pos = 2103
 set osd_tim_2_pos = 386
 set osd_flymode_pos = 2081
 set osd_throttle_pos = 2425
-set osd_vtx_channel_pos = 2410
+set osd_vtx_channel_pos = 2081
 set osd_current_pos = 322
 set osd_mah_drawn_pos = 2370
 set osd_craft_name_pos = 394
@@ -129,26 +119,15 @@ set osd_avg_cell_voltage_pos = 2402
 set osd_battery_usage_pos = 2409
 set osd_disarmed_pos = 2411
 set osd_flip_arrow_pos = 2350
-set osd_stat_tim_2 = OFF
-set osd_stat_max_spd = OFF
-set osd_stat_min_batt = OFF
-set osd_stat_battery = ON
-set osd_stat_min_rssi = OFF
-set osd_stat_used_mah = OFF
-set osd_stat_bbox = OFF
-set osd_stat_bb_no = OFF
-set osd_stat_min_link_quality = ON
-set osd_stat_total_time = ON
-
 set vtx_band = 4
 set vtx_channel = 6
-set vtx_power = 2
+set vtx_power = 3
 set vtx_low_power_disarm = UNTIL_FIRST_ARM
 set vtx_freq = 5840
 set vcd_video_system = NTSC
 set gyro_1_align_yaw = 1800
-set gyro_rpm_notch_harmonics = 1
-set name = BabyTooth
+set gyro_rpm_notch_harmonics = 2
+set name = TadPole
 
 profile 0
 
@@ -157,28 +136,15 @@ set dyn_lpf_dterm_min_hz = 91
 set dyn_lpf_dterm_max_hz = 221
 set dterm_lowpass2_hz = 195
 set vbat_pid_gain = ON
-set anti_gravity_gain = 5000
-set iterm_relax_cutoff = 20
-set throttle_boost = 3
-set p_pitch = 108
-set i_pitch = 65
-set d_pitch = 80
-set f_pitch = 0
-set p_roll = 108
-set i_roll = 55
-set d_roll = 75
-set f_roll = 0
-set p_yaw = 90
-set i_yaw = 85
+set feedforward_transition = 25
+set iterm_relax_cutoff = 11
+set throttle_boost = 2
+set acro_trainer_angle_limit = 25
 set angle_level_strength = 110
 set horizon_level_strength = 70
-set horizon_transition = 80
 set level_limit = 30
-set abs_control_gain = 5
-set d_min_roll = 20
-set d_min_pitch = 22
-set d_min_boost_gain = 27
-set auto_profile_cell_count = 1
+set abs_control_gain = 20
+set auto_profile_cell_count = 2
 
 profile 1
 
@@ -190,7 +156,6 @@ profile 0
 rateprofile 0
 
 # rateprofile 0
-set rates_type = BETAFLIGHT
 set thr_mid = 30
 set thr_expo = 59
 set roll_rc_rate = 108
@@ -199,10 +164,39 @@ set roll_expo = 40
 set pitch_expo = 40
 set roll_srate = 73
 set pitch_srate = 73
+set tpa_rate = 75
+set tpa_breakpoint = 1750
 
 rateprofile 1
 
+# rateprofile 1
+set thr_mid = 30
+set thr_expo = 59
+set roll_rc_rate = 108
+set pitch_rc_rate = 108
+set roll_expo = 40
+set pitch_expo = 40
+set roll_srate = 73
+set pitch_srate = 73
+set tpa_rate = 50
+set tpa_breakpoint = 1750
+
 rateprofile 2
+
+# rateprofile 2
+set thr_mid = 15
+set thr_expo = 50
+set roll_rc_rate = 87
+set pitch_rc_rate = 87
+set yaw_rc_rate = 153
+set roll_expo = 15
+set pitch_expo = 15
+set yaw_expo = 3
+set roll_srate = 60
+set pitch_srate = 60
+set yaw_srate = 60
+set tpa_rate = 50
+set tpa_breakpoint = 1750
 
 rateprofile 3
 
@@ -211,6 +205,6 @@ rateprofile 4
 rateprofile 5
 
 # restore original rateprofile selection
-rateprofile 0
+rateprofile 1
 
 # save configuration

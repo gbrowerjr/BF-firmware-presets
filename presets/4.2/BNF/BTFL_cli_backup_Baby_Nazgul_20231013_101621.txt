@@ -7,7 +7,7 @@ defaults nosave
 #$ STATUS: OFFICIAL
 #$ KEYWORDS: defaults, reset, Modes
 #$ AUTHOR: Jugga
-#$ DESCRIPTION: Resets the cli values to my Betaflight 4.2 defaults
+#$ DESCRIPTION: Resets the cli values to my Betaflight 4.2 defaults - 48khz jesc
 
 # version
 # Betaflight / IFLIGHTF411RX (IFRCF4RX) 4.2.8 Jun 12 2021 / 10:10:32 () MSP API: 1.43
