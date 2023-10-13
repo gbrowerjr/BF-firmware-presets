@@ -1,5 +1,12 @@
 defaults nosave
 
+#$ TITLE: My BNF Babytooth 2S
+#$ FIRMWARE_VERSION: 4.2
+#$ CATEGORY: BNF
+#$ STATUS: OFFICIAL
+#$ KEYWORDS: defaults, reset, Modes
+#$ AUTHOR: Jugga
+#$ DESCRIPTION: Resets the cli values to my Betaflight 4.2 defaults
 
 # version
 # Betaflight / STM32F411 (S411) 4.2.5 Nov 22 2020 / 18:38:45 (afdac08b3) MSP API: 1.43
@@ -15,7 +22,7 @@ defaults nosave
 board_name MATEKF411
 manufacturer_id MTKS
 mcu_id 0050006b4247501120303634
-signature 
+signature
 
 # name: BabyTooth
 
@@ -129,11 +136,12 @@ set osd_stat_bbox = OFF
 set osd_stat_bb_no = OFF
 set osd_stat_min_link_quality = ON
 set osd_stat_total_time = ON
-set vtx_band = 5
-set vtx_channel = 2
-set vtx_power = 3
+
+set vtx_band = 4
+set vtx_channel = 6
+set vtx_power = 2
 set vtx_low_power_disarm = UNTIL_FIRST_ARM
-set vtx_freq = 5695
+set vtx_freq = 5840
 set vcd_video_system = NTSC
 set gyro_1_align_yaw = 1800
 set gyro_rpm_notch_harmonics = 1
@@ -179,6 +187,7 @@ profile 0
 rateprofile 0
 
 # rateprofile 0
+set rates_type = BETAFLIGHT
 set thr_mid = 30
 set thr_expo = 59
 set roll_rc_rate = 108

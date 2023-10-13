@@ -160,7 +160,6 @@
       "BMSThomas",
       "ctzsnooze",
       "Daniel Appel / Tehllama",
-      "Davide FPV (Davide Angeletti)",
       "Directory",
       "Evan Turner (Headsup)",
       "Feisar",
@@ -285,8 +284,6 @@
       "ctzsnooze",
       "CTZsoonze",
       "custom commands",
-      "davide",
-      "davide fpv",
       "DDC",
       "default",
       "defaults",
@@ -365,7 +362,7 @@
       "meteor",
       "MinChan",
       "mode",
-      "modes",
+      "Modes",
       "mouse fpv",
       "mr nice",
       "mrnice",
@@ -503,6 +500,23 @@
     ]
   },
   "presets": [
+    {
+      "fullPath": "presets/4.2/BNF/BTFL_cli_backup_BabyTooth_20231013_092933.txt",
+      "hash": "e85bdc20d7c2476f8d0de3cb76f12949a97efb995d4a3ee22c0305f959ac076d",
+      "title": "My BNF Babytooth 2S",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "BNF",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "Modes"
+      ],
+      "author": "Jugga",
+      "priority": 0
+    },
     {
       "fullPath": "presets/4.3/filters/basic_no_rpm_clean.txt",
       "hash": "c0bd2461401e586a4bdb5bf104db999a11bf8341762dbe509adf2d676f5b4412",
@@ -3678,8 +3692,8 @@
     },
     {
       "fullPath": "presets/4.4/bnf/BTFL_cli_backup_Firefly_20231012_211808.txt",
-      "hash": "2f0340a971421664b1d2458e718566ad85b7e4f9e490b9ee1341eea6586ef72b",
-      "title": "My BNF Flywoo DC16 Baby Nano",
+      "hash": "cb98918c9b7190a6f100890fbc555c0599f4e65454c44f034332c03268531305",
+      "title": "My BNF Flywoo DC16 Baby Nano 1S",
       "firmware_version": [
         "4.4"
       ],
@@ -3718,9 +3732,11 @@
     },
     {
       "fullPath": "presets/4.4/modes/MyModes.txt",
-      "hash": "8c731a63d59754ba91c7b9716fc61ee21a681c8cc7e1970130f03c41d8ffd690",
+      "hash": "31319d82b475848d6e9b65b618542cd9b1d7175affb30aefb1b92e18e76b52c8",
       "title": "My Default 4.4 Mode/aux settings",
       "firmware_version": [
+        "4.2",
+        "4.3",
         "4.4"
       ],
       "category": "MODES",
@@ -3770,31 +3786,12 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.4/rates/DavideFPVFreeStyle.txt",
-      "hash": "49d062988bc8fb428ec542d3649eda1f08b309edf773536cef317c958d893185",
-      "title": "Davide FPV Rates for Freestyle with Cinematic Option",
-      "firmware_version": [
-        "4.3",
-        "4.4"
-      ],
-      "category": "RATES",
-      "status": "COMMUNITY",
-      "keywords": [
-        "davide fpv",
-        "davide",
-        "rates",
-        "freestyle",
-        "hd",
-        "cinematic"
-      ],
-      "author": "Davide FPV (Davide Angeletti)",
-      "priority": 10000
-    },
-    {
       "fullPath": "presets/4.4/rates/MyRates.txt",
-      "hash": "f277911ab16cb62f6bf8cec7a641bb25735efd9a198a2e3a12629d469ac4bbe3",
+      "hash": "b1c96b56ad54bf6fc04f59d0ee2e3f29f2300d21d8b382b40813b8ca8ffd8171",
       "title": "My Default Rate settings",
       "firmware_version": [
+        "4.2",
+        "4.3",
         "4.4"
       ],
       "category": "RATES",
@@ -3802,7 +3799,7 @@
       "keywords": [
         "defaults",
         "reset",
-        "OSD"
+        "RATES"
       ],
       "author": "Jugga",
       "priority": 10000
