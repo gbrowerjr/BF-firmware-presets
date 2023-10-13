@@ -503,7 +503,7 @@
   "presets": [
     {
       "fullPath": "presets/4.2/BNF/BTFL_cli_backup_BabyTooth_20231013_092933.txt",
-      "hash": "c5cbec26f373d84319e2669e5c7cb5b1199ad6512f1d9216995be755cf3ddbe2",
+      "hash": "59c072a212aae7f5a0312f6efeaa728c8ee99c51fd5024dfffdbea5ca1263546",
       "title": "My BNF Babytooth 2S",
       "firmware_version": [
         "4.2"
@@ -537,7 +537,7 @@
     },
     {
       "fullPath": "presets/4.2/BNF/BTFL_cli_backup_TadPole_20231013_122234.txt",
-      "hash": "fbd16c46bb2ae3a7b11d875a93e19eb1e9ae8189904467884673dc3cd785fb1b",
+      "hash": "1986eee4003a4259dd6684e1ed79d51c01ee5e33b0e85e8ec7844b4e316115fa",
       "title": "My BNF Tadpole 2S",
       "firmware_version": [
         "4.2"
@@ -548,6 +548,25 @@
         "defaults",
         "reset",
         "BNF"
+      ],
+      "author": "Jugga",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.2/BNF/BTFL_cli_backup_TinyHawk_20231013_150121.txt",
+      "hash": "e93bad32e6b7775cd4cf97ee9a7c8c738b7203950a94a9abff1fb49c61b2e419",
+      "title": "My BNF Emaxx TinyHawk 1S",
+      "firmware_version": [
+        "4.2",
+        "4.3",
+        "4.4"
+      ],
+      "category": "BNF",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "Modes"
       ],
       "author": "Jugga",
       "priority": 0
