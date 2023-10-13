@@ -3749,7 +3749,7 @@
     },
     {
       "fullPath": "presets/4.4/modes/MyModes.txt",
-      "hash": "31319d82b475848d6e9b65b618542cd9b1d7175affb30aefb1b92e18e76b52c8",
+      "hash": "476fa27a692cf417e93b677f995e299de24b9e16927c0f59490ea7bfcdff02dd",
       "title": "My Default 4.4 Mode/aux settings",
       "firmware_version": [
         "4.2",
@@ -3804,7 +3804,7 @@
     },
     {
       "fullPath": "presets/4.4/rates/MyRates.txt",
-      "hash": "b1c96b56ad54bf6fc04f59d0ee2e3f29f2300d21d8b382b40813b8ca8ffd8171",
+      "hash": "43323609d566bbcb700f0d4219ee4e23bfa54ed75d5378aada464ef917a8cbf5",
       "title": "My Default Rate settings",
       "firmware_version": [
         "4.2",
