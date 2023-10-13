@@ -20,7 +20,7 @@ defaults nosave
 #$ KEYWORDS: defaults, reset, Modes
 #$ AUTHOR: Jugga
 #$ DESCRIPTION: Resets the cli values to my Betaflight 4.2 defaults -
-#$ DESCRIPTION: Project Mockingbird
+#$ DESCRIPTION: Project Mockingbird 48khz JESC
 
 board_name MATEKF411
 manufacturer_id MTKS
