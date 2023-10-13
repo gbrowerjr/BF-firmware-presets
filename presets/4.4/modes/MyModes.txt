@@ -6,7 +6,9 @@
 #$ AUTHOR: Jugga
 #$ DESCRIPTION: Resets the Mode/aux values to my Betaflight 4.4 defaults
 
-# aux - My default aux setup
+map TAER1234
+
+# aux
 aux 0 0 0 950 1350 0 0
 aux 1 1 0 1100 1175 0 0
 aux 2 13 3 1200 1300 0 0
