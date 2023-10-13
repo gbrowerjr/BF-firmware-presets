@@ -3718,7 +3718,7 @@
     },
     {
       "fullPath": "presets/4.4/modes/MyModes.txt",
-      "hash": "4c206cf22c80e0c0f4b3a3b7de8d7475b039891c122f67b803eff60be2e31706",
+      "hash": "8c731a63d59754ba91c7b9716fc61ee21a681c8cc7e1970130f03c41d8ffd690",
       "title": "My Default 4.4 Mode/aux settings",
       "firmware_version": [
         "4.4"
@@ -3752,9 +3752,11 @@
     },
     {
       "fullPath": "presets/4.4/osd/MyOSD.txt",
-      "hash": "947f4ab6b87acd430dac7414ac9a61727726459630054014310c13c6d3997c62",
+      "hash": "c21959e1c92d38d62e8237979e987abbb9b77fff7bf9efbe48377d31d07af941",
       "title": "My Default 4.4 OSD settings",
       "firmware_version": [
+        "4.2",
+        "4.3",
         "4.4"
       ],
       "category": "OSD",
@@ -3790,7 +3792,7 @@
     },
     {
       "fullPath": "presets/4.4/rates/MyRates.txt",
-      "hash": "6c3eacda90c6cc972138ede63b305dca62281400f00d0998e94ab6138cb1c5c9",
+      "hash": "f277911ab16cb62f6bf8cec7a641bb25735efd9a198a2e3a12629d469ac4bbe3",
       "title": "My Default Rate settings",
       "firmware_version": [
         "4.4"
