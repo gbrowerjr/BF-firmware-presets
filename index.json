@@ -518,6 +518,23 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.2/BNF/BTFL_cli_backup_Baby_Nazgul_20231013_101621.txt",
+      "hash": "0994dd668b1bd165d86a0915cdd897ade52c0ac5228845135a11e86ba3345502",
+      "title": "My BNF Baby Nazgul 1S",
+      "firmware_version": [
+        "4.2"
+      ],
+      "category": "BNF",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "Modes"
+      ],
+      "author": "Jugga",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.3/filters/basic_no_rpm_clean.txt",
       "hash": "c0bd2461401e586a4bdb5bf104db999a11bf8341762dbe509adf2d676f5b4412",
       "title": "4.3 Filter settings for CLEAN build WITH NO RPM FILTERING.",
