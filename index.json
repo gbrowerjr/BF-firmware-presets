@@ -572,6 +572,25 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.2/BNF/BTFL_cli_backup_TinyHawk_II_20231014_112823.txt",
+      "hash": "9b4bd0a39ac7714691ea0eeb2346b1b66c593add56f9e4510866397d1c391935",
+      "title": "My BNF Emaxx TinyHawk II 1-2S",
+      "firmware_version": [
+        "4.2",
+        "4.3",
+        "4.4"
+      ],
+      "category": "BNF",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "BNF"
+      ],
+      "author": "Jugga",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.3/filters/basic_no_rpm_clean.txt",
       "hash": "c0bd2461401e586a4bdb5bf104db999a11bf8341762dbe509adf2d676f5b4412",
       "title": "4.3 Filter settings for CLEAN build WITH NO RPM FILTERING.",
