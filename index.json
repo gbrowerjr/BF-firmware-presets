@@ -377,6 +377,7 @@
       "nano",
       "nanohawk",
       "Neil",
+      "new",
       "nice",
       "nmea",
       "no rpm",
@@ -428,6 +429,7 @@
       "sbang",
       "sbus",
       "SBUS fast",
+      "setup",
       "shames",
       "shitpilot",
       "sliders",
@@ -531,6 +533,25 @@
         "defaults",
         "reset",
         "Modes"
+      ],
+      "author": "Jugga",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.2/BNF/BTFL_cli_backup_Meteor65_20231014_133357.txt",
+      "hash": "10015daf62c7176c5675d6e774d2c606cc89b773a3fbe4584216595d45c1eb43",
+      "title": "My BNF Meteor65 settings",
+      "firmware_version": [
+        "4.2",
+        "4.3",
+        "4.4"
+      ],
+      "category": "OSD",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "BNF"
       ],
       "author": "Jugga",
       "priority": 0
@@ -3841,7 +3862,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/MyOSD.txt",
-      "hash": "f568667fe55d0d4a73c2167a157edfc261d11c955c17268aac8e592c2f7324cd",
+      "hash": "d478bbcd81c4857436ad249d8b674a3b30302478120179d75f4c9d71feee9f32",
       "title": "My Default 4.4 OSD settings",
       "firmware_version": [
         "4.2",
@@ -3854,6 +3875,28 @@
         "defaults",
         "reset",
         "OSD"
+      ],
+      "author": "Jugga",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/other/New-Setup.txt",
+      "hash": "c7ccab10b4948298343ec06b060d20b25b3973803aedb07f9857922cfccf5d41",
+      "title": "New Quad Setup",
+      "firmware_version": [
+        "4.2",
+        "4.3",
+        "4.4"
+      ],
+      "category": "OTHER",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "rates",
+        "setup",
+        "osd",
+        "new"
       ],
       "author": "Jugga",
       "priority": 0
