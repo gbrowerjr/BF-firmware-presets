@@ -58,7 +58,7 @@ set simplified_pitch_d_gain = 100
 set simplified_pitch_pi_gain = 100
 set simplified_master_multiplier = 160
 
-set iterm_relax_cutoff = 5
+set iterm_relax_cutoff = 5 
 set vbat_sag_compensation = 100
 set anti_gravity_gain = 90
 set pidsum_limit = 1000
