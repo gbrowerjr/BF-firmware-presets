@@ -387,7 +387,7 @@
       "O3 air unit",
       "OpenRacer",
       "OpenVTx",
-      "OSD",
+      "osd",
       "partial",
       "Passthrough",
       "pid",
@@ -552,6 +552,28 @@
         "defaults",
         "reset",
         "BNF"
+      ],
+      "author": "Jugga",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.2/BNF/BTFL_cli_backup_Nanohawk_X_20231030_165900.txt",
+      "hash": "35b3bf95997c2b8449a77e7913b764551043e540c6c49a6c2b70a4ea6db3d1e2",
+      "title": "BNF NanoHawk X",
+      "firmware_version": [
+        "4.2",
+        "4.3",
+        "4.4"
+      ],
+      "category": "BNF",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "rates",
+        "setup",
+        "osd",
+        "new"
       ],
       "author": "Jugga",
       "priority": 0
@@ -4676,7 +4698,7 @@
     },
     {
       "fullPath": "presets/4.4/tune/uav_tech/UAV_tech_Whoop.txt",
-      "hash": "17d5320f239bb58dafba849566f9eebf7db4d65bd92bbe63d08ef53a986836cc",
+      "hash": "82c46f0685d8f56477b9d17a2acbb1eb1897d092fad14e05c9d3e7cc8695301d",
       "title": "UAV Tech - Whoop (1S & 2S)",
       "firmware_version": [
         "4.4"

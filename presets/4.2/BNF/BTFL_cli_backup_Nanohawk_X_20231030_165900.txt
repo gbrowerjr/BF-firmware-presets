@@ -1,12 +1,15 @@
-defaults nosave
-
-###WARNING: NO CUSTOM DEFAULTS FOUND###
+#$ TITLE: BNF NanoHawk X
+#$ FIRMWARE_VERSION: 4.2
+#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: BNF
+#$ STATUS: OFFICIAL
+#$ KEYWORDS: defaults, reset, rates, setup, osd, new
+#$ AUTHOR: Jugga
+#$ DESCRIPTION: Backup of the NanoHawk with my rates, osd and modes
 
 # version
 # Betaflight / STM32F411 (S411) 4.2.9 Apr 27 2021 / 19:33:23 (e097f4ab7) MSP API: 1.43
-###ERROR: diff: NO CONFIG FOUND###
-# start the command batch
-batch start
 
 # reset configuration to default settings
 defaults nosave
@@ -14,7 +17,7 @@ defaults nosave
 board_name MATEKF411RX
 manufacturer_id MTKS
 mcu_id 005d005d3439511236383737
-signature 
+signature
 
 # name: Nanohawk X
 
