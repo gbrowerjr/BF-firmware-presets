@@ -558,8 +558,8 @@
     },
     {
       "fullPath": "presets/4.2/BNF/BTFL_cli_backup_Nanohawk_X_20231030_165900.txt",
-      "hash": "35b3bf95997c2b8449a77e7913b764551043e540c6c49a6c2b70a4ea6db3d1e2",
-      "title": "BNF NanoHawk X",
+      "hash": "6ca812aef1acede37e3741e980995a53491b0cd08c121b355ea3e524029ddda5",
+      "title": "BNF NanoHawk X 1s",
       "firmware_version": [
         "4.2",
         "4.3",
